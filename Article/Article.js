@@ -140,6 +140,7 @@ function articleComponentCreator(dataObject) {
   expandButton.classList.add('expandButton');
 
   title.addEventListener('click', (event) => {
+    console.log(event.target);
     article.classList.toggle('article-open');
   });
 
